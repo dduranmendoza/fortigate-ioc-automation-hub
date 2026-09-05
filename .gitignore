@@ -1,0 +1,10 @@
+# Local / editor files
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Never commit local secret exports
+.env
+.env.*
+secrets.*
