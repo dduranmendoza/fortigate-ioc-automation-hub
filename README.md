@@ -2,8 +2,6 @@
 
 > A lightweight CyberOps workflow that turns structured IoC requests into standardized FortiGate CLI, records the request, emails the generated configuration, and notifies a Google Chat space.
 
-![Architecture](docs/images/architecture.png)
-
 ## Why this project exists
 
 IoC blocking is a simple task, but manual CLI generation creates unnecessary operational risk: inconsistent object names, syntax mistakes, incomplete changes, accidental blocking of critical services, and poor traceability.
@@ -130,8 +128,7 @@ At a high level:
 │   └── appsscript.json
 ├── docs/
 │   ├── architecture.md
-│   ├── setup.md
-│   └── images/
+│   └── setup.md
 └── examples/
     ├── sample-input.txt
     └── sample-output.conf
@@ -150,23 +147,3 @@ The current version intentionally focuses on **request → standardized CLI → 
 ## Disclaimer
 
 This is an independent community project and is not affiliated with or endorsed by Fortinet or Google. Test in a lab and adapt the controls, naming conventions, allowlists, and change process to your environment before production use.
-
-## Screenshots
-
-> All screenshots below are sanitized and contain demonstration or redacted data.
-
-### Analyst form
-
-![Google Form](docs/images/form.png)
-
-### Apps Script trigger
-
-![Apps Script Trigger](docs/images/apps-script-trigger.png)
-
-### Google Chat notification
-
-![Google Chat Notification](docs/images/google-chat-notification.png)
-
-### Response sheet
-
-![Response Sheet](docs/images/sheet.png)
