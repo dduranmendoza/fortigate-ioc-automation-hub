@@ -1,0 +1,12 @@
+Ticket: INC-12345
+Change: CHG-67890
+Detail: Test IoC containment request
+
+Domains / FQDNs:
+malicious-example[.]invalid
+hxxps://c2-demo[.]invalid/login
+
+IPv4 / CIDR:
+198.51.100.25
+203.0.113.0/28
+1.1.1.1
